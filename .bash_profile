@@ -41,3 +41,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# OCLINT
+OCLINT_HOME=$HOME/oclint-0.7-x86_64-linux-ubuntu-12.04
+export PATH=$OCLINT_HOME/bin:$PATH
